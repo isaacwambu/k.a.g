@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://images.unsplash.com/photo-1654008336992-67bfabd11916?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" )no-repeat center center fixed;
+    background-size: cover;
+}
+.banner{
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+nav{
+    text-align: center;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+
+   
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.container{
+    background-color: white;
+    height: 180vh;
+    border-radius: 10px;
+}
+.container1{
+    background-color: white;
+   
+
+}
+.container1 .col-md-8{
+    background: url("https://images.unsplash.com/photo-1648737966762-1c8921f9b976?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxODB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60")no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+
+}
+.container1 .col-md-4{
+    padding: 30px;
+    
+}
+.side{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: 35vh;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.about{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+.parallax{
+    background: url("https://images.unsplash.com/photo-1653917207318-a0a2a8a72ff1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.order{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 2;
+    font-weight: bold;
+    padding: 5%;
+  
+}
+.container3{
+    margin-top: 2%;
+}
+.order ul li{
+    list-style: none;
+
+}
+.order h2{
+    font-size: 3rem;
+}
+.container4{
+    margin-top: 2%;
+    align-items: center;
+    height: 40vh;
+    padding: 2% 5%;
+}
+.container4 h2{
+    border-radius: 100%;
+    height: 10vh;
+    width: 40%;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 25%;
+}
+.container4 p{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin-top: 5%;
+
+}
+footer{
+    background-color: blue;
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px;
+    margin-top: 2%;
+    
+
+}
+footer a{
+    color: white;
+}
+footer .col-md-4{
+    border-right: 2px solid white;
+}
